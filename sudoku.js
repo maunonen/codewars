@@ -117,3 +117,8 @@ console.log(sudoku(puzzle));
 /*
     some test text for branch test 1
 */
+
+
+/*
+    some test text for branch test 2
+*/
