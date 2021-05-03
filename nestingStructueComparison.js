@@ -43,20 +43,8 @@ Array.prototype.sameStructureAs = function (other) {
             break 
         }
     }
-    return isTheSame
-    
-/*     let thisArrStr = JSON.stringify(this)
-                            .replace(/[^[,\]]/gi, '');
-
-    let otherArrStr = JSON.stringify(other)
-                            .replace(/[^[,\]]/gi, '');
-
-    console.log(this);
-    console.log(other);
-    console.log(thisArrStr); 
-    console.log(otherArrStr);
-    return thisArrStr === otherArrStr; 
- */};
+    return isTheSame   
+};
 
 const arr = [[[],[]]] ; 
 const compArr = [[1,1]]; 

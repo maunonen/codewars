@@ -16,7 +16,6 @@ Ex: [1,2,3,'a','b','c',[]] #Output: [[],'c','b','a',3,2,1]
 
 const weirdReverse=a=>a.sort(el=>1)
 
-  
 const arr = [1,2,3,'a','b','c',[]] 
 
 console.log( weirdReverse(arr)); 

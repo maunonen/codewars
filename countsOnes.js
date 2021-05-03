@@ -15,6 +15,7 @@ WARNING: Segment may contain billion elements, to pass this kata, your solution 
 
  */
 
+
 function countOnes(left, right) {
     let amountOnes = 0; 
     for( let n = left; n <= right; n++){

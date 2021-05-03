@@ -25,7 +25,6 @@ function isMerge(s, part1, part2) {
     if (s.length){ 
         return false
     }
-
     const str1 = part1.trim().split(''); 
     const str2 = part2.trim().split(''); 
     const arrSring = s.trim().split(''); 
@@ -45,6 +44,8 @@ function isMerge(s, part1, part2) {
     }
     return true
 }
+
+
 
 const str1 = 'P(s^>N.X d'; 
 const str2 = 'P(s^>N4Xc'; 

@@ -32,7 +32,5 @@ function int32ToIp(int32){
     return ; 
 }
 
-
-
 const val = 2154959208; 
 console.log(int32ToIp(val)); 

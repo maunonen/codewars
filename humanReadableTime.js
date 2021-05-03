@@ -11,6 +11,7 @@ The maximum time never exceeds 359999 (99:59:59)
 You can find some examples in the test fixtures. 
 
 */
+
 function humanReadable(seconds) {
     
     if (seconds >= 359999 ) {
@@ -22,7 +23,5 @@ function humanReadable(seconds) {
     const restForSeconds = (seconds % 60).toString().padStart(2, '0'); 
     return `${hours}:${min}:${restForSeconds}`; 
 }
-
-
 const sec = 86399
 console.log(humanReadable(sec)); 

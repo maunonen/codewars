@@ -25,47 +25,7 @@ function sudoku(puzzle) {
     console.log(puzzle)
     console.log('--------------------------')
     
-    const newArr = []; 
-    
-   /*  const getColumn = ( column ) => {
-         // loop throuht out column i - value of row
-        let columnArr = []
-        for ( i = 0 ; i < 9 ; i++){
-            // loop throuht out row j - value of column 
-            for ( j = 0 ; j < 9 ; j++){
-                columnArr.push = puzzle[i, column]
-            }
-        }
-        //console.log(columnArr)
-        return columnArr; 
-    }
-    const getQuadrat = ( i, j) => { 
-
-    }
-    
-   
-    const checkColumn = (number,  i , j) => {
-
-        console.log('get column', getColumn(j)); 
-        //getColumn(j).includes(number); 
-        return true
-    }
-    const checkQuadrat =  (number,  i , j) => {
-
-    }
-    
-    
-    //const getRow = (i) => puzzle[i]; 
-
-    const checkRow = (number, i , j) => {
-        return puzzle[i].includes(number);
-    }
-
-    const checkCondition = ( number, i  , j ) => {
-        //return  checkRow(number, i , j) 
-                //&& checkColumn(number, i , j); 
-                //&& checkQuadrat(puzzle[i][j]); 
-    } */
+    const newArr = [];
     
     // loop throuht out column i - value of row
     for ( i = 0 ; i < 9 ; i++){
@@ -112,10 +72,7 @@ function sudoku(puzzle) {
                     let startJ = Math.floor(j/3) * 3; 
                     let endSquareI = startI + 3; 
                     let endSquareJ = startJ + 3; 
-                 /*    console.log('Square start I', startI); 
-                    console.log('Square start J', startJ); 
-                    console.log('Square end I', endSquareI); 
-                    console.log('Square end J', endSquareJ);  */
+
 
                     for (startI ; startI < endSquareI ; startI++ ){
                         for (startJ ; startJ < endSquareJ ; startJ++ ){
