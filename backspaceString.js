@@ -13,23 +13,11 @@ Examples
 */
 
 function cleanString(s) {
-    
-/* const res = []; 
-for ( let i = 0; i < s.length ; i++  ){
-    if ( s[i] === '#'){
-        res.shift(); 
-        continue
-    }
-    res.push(s[i]); 
-}
-
-return res */
     const res =[]
     s.split('').forEach(char => char === '#' ? res.pop() : res.push(char)); 
     return res.join('')
 };
 
 
-
-str = "abc#d##c" ; 
+str = "abc#d##c" ;
 console.log(cleanString(str)); 
